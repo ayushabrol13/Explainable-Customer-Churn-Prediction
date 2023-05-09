@@ -22,14 +22,33 @@ Step 2: Select the directory
 
     $ cd Explainable-Customer-Churn-Prediction
 
-Step 2: Install the required libraries
+Step 3: Install the required libraries
 
     $ pip install -r requirements.txt
 
-Step 3: Run the app.py file
+Step 4: Run the app.py file
 
     $ flask --app app run
+
+Step 5: Open the link in the browser
+
+    $ http://127.0.0.1:5000/
 
 ## Final Customer Churn Prediction Flask app
 
 ![image](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/website.png)
+
+## Explainablity of the model
+
+We have compared the explainability of Random Forest Classifier and a deep learning neural network MLP Classifier. We have used SHAP values to explain the predictions of the model. SHAP values interpret the impact of having a certain value for a given feature in comparison to the prediction we'd make if that feature took some baseline value.
+
+We have explained and understood the Random forest model and the MultiLayerPerceptron model using explainable AI modules such as Permutation Importance, Partial Dependence plots and Shap values.
+
+We see that the neural net model is way more complex than the random forest model and hence it is difficult to explain the neural net model. The random forest model is much simpler and hence it is easier to explain the random forest model.
+This is due to the fact that the neural net model has a lot of hidden layers and a lot of neurons in each layer. This makes the model very complex and hence it is difficult to explain the model.
+
+## Feature Importance Plots
+
+### MultiLayerPerceptron
+
+
