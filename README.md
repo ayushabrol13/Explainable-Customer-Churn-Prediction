@@ -93,3 +93,9 @@ We have used shapley values to explain the predictions of the model. SHAP values
 We have created a customer churn prediction model using Random Forest Classifier and a deep learning neural network MLP Classifier. We have used Partial Dependency plots and Shapley values to explain the predictions of the model. We have also created a Flask app that can be used to determine a customer's estimated lifetime value and the reasons why they would cancel a subscription.
 
 The final app shows churning probability, gauge chart of how severe a customer is and shap values based on customer's data. The final app layout can be seen above.
+
+## Contributors
+
+- [Ayush Abrol](https://github.com/ayushabrol13)
+
+-[Aryan Tiwari](https://github.com/AryanTiwarii)
