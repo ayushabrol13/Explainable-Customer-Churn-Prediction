@@ -51,4 +51,8 @@ This is due to the fact that the neural net model has a lot of hidden layers and
 
 ### MultiLayerPerceptron
 
+![mlp](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/Feature%20importance%20for%20MLP.png)
 
+### Random Forest Classifier
+
+![rfc](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/Feature%20Importance%20for%20RFC.png)
