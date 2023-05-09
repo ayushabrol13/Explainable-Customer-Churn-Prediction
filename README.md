@@ -12,10 +12,6 @@ By determining a customer's propensity for risk of churn, churn prediction model
 
 We wanted to conduct a customer churn analysis for this project and create a model that can forecast client attrition. Additionally, we have created a Flask app that can be used to determine a customer's estimated lifetime value and the reasons why they would cancel a subscription.
 
-## Final Customer Churn Prediction Flask app
-
-![image](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/website.png)
-
 ## How to run the code
 
 Step 1: Clone the repository
@@ -33,3 +29,7 @@ Step 2: Install the required libraries
 Step 3: Run the app.py file
 
     $ flask --app app run
+
+## Final Customer Churn Prediction Flask app
+
+![image](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/website.png)
