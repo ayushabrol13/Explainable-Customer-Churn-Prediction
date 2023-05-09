@@ -56,3 +56,38 @@ This is due to the fact that the neural net model has a lot of hidden layers and
 ### Random Forest Classifier
 
 ![rfc](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/Feature%20Importance%20for%20RFC.png)
+
+## Partial Dependency
+
+Partial dependence plot is used to see how churning probability changes across the range of particular feature.
+We have used partial dependency plots to understand the relationship between the target and the features. We have used the `pdpbox` library to plot the partial dependency plots.
+
+## Shapley Values
+
+Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
+
+We have used shapley values to explain the predictions of the model. SHAP values interpret the impact of having a certain value for a given feature in comparison to the prediction we'd make if that feature took some baseline value. We have used the `shap` library to plot the shapley values.
+
+### Shap MLP
+
+![mlp](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/plots/shap_mlp.png)
+
+### Shap RFC
+
+![rfc](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/plots/shap_rfc.png)
+
+## Gauge Charts
+
+### MultiLayerPerceptron
+
+![mlp](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/plots/gauge_mlp.png)
+
+### Random Forest Classifier
+
+![rfc](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/plots/gauge_rf.png)
+
+## Conclusion
+
+We have created a customer churn prediction model using Random Forest Classifier and a deep learning neural network MLP Classifier. We have used Partial Dependency plots and Shapley values to explain the predictions of the model. We have also created a Flask app that can be used to determine a customer's estimated lifetime value and the reasons why they would cancel a subscription.
+
+The final app shows churning probability, gauge chart of how severe a customer is and shap values based on customer's data. The final app layout can be seen above.
