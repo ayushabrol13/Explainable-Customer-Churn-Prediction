@@ -15,3 +15,21 @@ We wanted to conduct a customer churn analysis for this project and create a mod
 ## Final Customer Churn Prediction Flask app
 
 ![image](https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction/blob/master/images/website.png)
+
+## How to run the code
+
+Step 1: Clone the repository
+
+    $ git clone https://github.com/ayushabrol13/Explainable-Customer-Churn-Prediction.git
+
+Step 2: Select the directory
+
+    $ cd Explainable-Customer-Churn-Prediction
+
+Step 2: Install the required libraries
+
+    $ pip install -r requirements.txt
+
+Step 3: Run the app.py file
+
+    $ flask --app app run
