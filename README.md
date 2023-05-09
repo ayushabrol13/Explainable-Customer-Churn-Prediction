@@ -98,4 +98,4 @@ The final app shows churning probability, gauge chart of how severe a customer i
 
 - [Ayush Abrol](https://github.com/ayushabrol13)
 
--[Aryan Tiwari](https://github.com/AryanTiwarii)
+- [Aryan Tiwari](https://github.com/AryanTiwarii)
